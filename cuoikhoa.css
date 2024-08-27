@@ -1,0 +1,165 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    z-index: 0;
+}
+.header {
+    width: 100vw;
+    height: 100px;
+    border: 2px solid black;
+    background-color: white;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    position: fixed;
+    z-index: 1;
+}
+
+.aroma {
+    width: 150px;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.homeshop {
+    width: 500px;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.searchvamua {
+    width: 200px;
+    height: 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.divchuahomeshop {
+    width: 100px;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.buynow {
+    width: 120px;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 20px;
+    border: 2px solid white;
+    transition-property: border-color;
+    transition-duration: 1s;
+    transition-timing-function: ease;
+
+}
+
+.buynow:hover {
+    border-color: blue;
+}
+
+.iconcanharoma {
+    color: blue;
+    font-size: x-large;
+}
+
+.iconsearchvamua {
+    width: 50px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.cacchuhomeshop {
+    transition-property: color;
+    transition-duration: 1s;
+    transition-timing-function: ease;
+}
+
+.cacchuhomeshop:hover {
+    color: blue;
+}
+
+.khoithu2 {
+    position: relative;
+    top: 90px;
+    z-index: 0;
+}
+
+.khoixanhnuocbien {
+    width: 450px;
+    height: 1000px;
+    border: 2px solid black;
+    background-color: blue;
+}
+
+img {
+    width: 450px;
+    height: 900px;
+    position: absolute;
+    top: 105px;
+    left: 80px;
+}
+
+.khoithu2cuatrang {
+    display: flex;
+    z-index: 0;
+}
+
+.khoichuachutrongkhoi2 {
+    width: 450px;
+    height: 370px;
+    border: 2px solid black;
+    margin-top: 420px;
+    margin-left: 200px;
+    padding-top: 50px;
+}
+
+.shopisfun {
+    font-size: xx-large;
+}
+
+.BrowseOurPremiumProduct {
+    font-size: 50px;
+}
+
+.browsenow {
+    width: 150px;
+    height: 50px;
+    border-color: blue;
+    border-radius: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition-property: background-color;
+    background-color: blue;
+    margin-top: 20px;
+}
+
+.browsenow:hover {
+    background-color: white;
+}
+
+.chubrowsenow {
+    color: white;
+    transition-property: color;
+    transition-duration: 1s;
+    transition-timing-function: ease;
+}
+
+.browsenow:hover ~ .chubrowsenow {
+    color: black;
+}
+
+
+
+
